@@ -1,0 +1,84 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700&display=swap"); */
+
+*{
+  font-family: inherit;
+}
+
+body{
+  background-color: bisque;
+  text-align: center;
+}
+
+/* .shippori-mincho b1-regular { 
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+.shippori7 {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.ban{
+  background-image:url(img/ban.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center top; */
+}
+
+.daimei{
+  font-weight: boldest ;
+}
+
+.daimei div{
+  display: inline-block;
+  background:wheat;
+}
+.shiro{
+  display: inline-block;
+  background: wheat;
+}
+
+
+
+#panel  {
+      width: windowWidth-30;
+      height:(windowWidth-30)/3;
+      overflow:hidden;
+      margin: auto;
+    }
+
+.card{
+      width : 16.5vw;
+      height: 11vw;
+      border: 1px solid silver;
+      border-radius:10px;
+      float:left;
+      cursor: pointer;
+    }
+
+img{
+      width: 16.5vw;
+      height: 11vw;
+    }
+
+    /* 裏の状態 */
+.back{
+      background-image: url('img/back.jpg');
+      background-size: 16.5vw 11vw;
+      }
+
+      /* 終了時 */
+.finish{
+        opacity:1;
+        cursor: default;
+      }
+      
+      /* 経過秒数 */
+#result{ 
+        font-size: 1.2em;
+        font-weight: bold;
+       } 
