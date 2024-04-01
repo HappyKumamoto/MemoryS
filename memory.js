@@ -30,6 +30,7 @@ let img_arr = [
     "img/2021ohsyohsen","img/160903","img/170316ohsyo","img/180912",
     "img/190526","img/198601nakamura","img/220417","img/230606",
     "img/230913kansai","img/231024kokura","img/231224west","img/240221",
+    "img/240323",
     "img/240323Q","img/20170515gifu","img/20170525kurashiki","img/20170526ama",
     "img/20170526inaba","img/20180316matumoto","img/chess","img/choketsu71",
     "img/danang","img/fendi","img/fukaura","img/ganryu",
