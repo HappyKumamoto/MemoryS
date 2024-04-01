@@ -50,8 +50,8 @@ body{
     }
 
 .card{
-      width : 15vw;
-      height: 10vw;
+      width : 16.5vw;
+      height: 11vw;
       border: 1px solid silver;
       border-radius:10px;
       float:left;
@@ -59,14 +59,14 @@ body{
     }
 
 img{
-      width: 15vw;
-      height: 10vw;
+      width: 16.5vw;
+      height: 11vw;
     }
 
     /* 裏の状態 */
 .back{
       background-image: url('img/back.jpg');
-      background-size: 15vw 10vw;
+      background-size: 16.5vw 11vw;
       }
 
       /* 終了時 */
