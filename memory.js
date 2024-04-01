@@ -54,7 +54,7 @@ shuffle(img_arr);
 
 //imgタグづくり ここでできたタグを使って画像を表示させる
 let img_tag_arr = [];
-for (let i = 0; i < 10; i++){
+for (let i = 0; i < 6; i++){
     img_tag_arr.push("<img src='" +img_arr[i] + ".jpg'>")
 }
 
@@ -63,7 +63,7 @@ for (let i = 0; i < 10; i++){
 window.onload = function(){
     // 数字格納 一時配列
     let arr = [];
-    for (let i = 0; i < 10; i++ ){
+    for (let i = 0; i < 6; i++ ){
         
         // ペアの数字を10組
         arr.push(i);
@@ -79,7 +79,7 @@ window.onload = function(){
     
     // div要素作成(カードの作成)
     // 全部で20枚必要 for文で作成
-    for (i = 0; i < 20; i++){
+    for (i = 0; i < 12; i++){
         let div = document.createElement('div');  //divタグの作成
         div.className = 'card back';  //最初カードの裏面を表示
         //div.index = i;
@@ -182,7 +182,7 @@ function turn(e){
                 cardFirst.className = 'card finish';  //1枚目のカード
                 backTimer = NaN;     //NaNにすることによってfalseになる
                 
-                if (countUnit === 10){     //すべてのペアが揃ったら
+                if (countUnit === 6){     //すべてのペアが揃ったら
                     clearInterval(timer);  // timer終了
                 }
             }, 500)
