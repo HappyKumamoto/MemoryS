@@ -51,8 +51,19 @@ main {
   margin-top: 100px;
 }
 
-      /* ボタンのデザイン */
-input[type="button"]{
-  font-size: 150%;
+.btn {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #336666;     /* 背景色     */
+  color         : #FFFFEE;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #A7B866; /* 影の設定 */
+  border        : none;    /* 枠の指定 */
+  text-decoration:none  /* 下線を消す */
 }
 
